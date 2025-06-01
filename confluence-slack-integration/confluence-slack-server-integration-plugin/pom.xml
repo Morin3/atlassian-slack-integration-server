@@ -29,7 +29,7 @@
         <confluence.data.version>${confluence.version}</confluence.data.version>
 
         <confluence.amps.version>8.9.2</confluence.amps.version>
-        <jvm17.opens />
+        <jvm17.opens/>
     </properties>
 
     <dependencies>
@@ -68,7 +68,7 @@
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
-            <version>1.9.4</version>
+            <version>1.11.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-collections</groupId>
@@ -351,7 +351,7 @@
                         <atlassian.darkfeature.pulp>false</atlassian.darkfeature.pulp>
                     </systemPropertyVariables>
                     <instructions>
-                        <CONF_COMM />
+                        <CONF_COMM/>
                         <Bundle-SymbolicName>com.atlassian.confluence.plugins.confluence-slack-server-integration-plugin</Bundle-SymbolicName>
                         <Import-Package>
                             org.springframework.osgi.context;resolution:=optional,
